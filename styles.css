@@ -1,0 +1,113 @@
+/* Estilos generales para el documento */
+body {
+    font-family: Arial, sans-serif; /* Fuente predeterminada para el documento */
+    margin: 0; /* Elimina el margen predeterminado del navegador */
+    padding: 0; /* Elimina el relleno predeterminado del navegador */
+    background-color: rgb(178, 199, 211);
+}
+
+/* Estilo para el título de la página en el head */
+h1 {
+    background-color: #003366; /* Azul oscuro para el fondo del título */
+    color: #ffffff; /* Color del texto en blanco */
+    padding: 10px; /* Relleno alrededor del texto del título */
+    margin: 0; /* Elimina el margen predeterminado */
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+/* Estilo para el contenedor de resultados de búsqueda de vuelo */
+#results-container {
+    background-color: #b4df18; /* Verde muy claro para el fondo del contenedor */
+    border: 1px solid #152e15; /* Borde verde claro alrededor del contenedor */
+    padding: 20px; /* Espaciado interno de 20 píxeles */
+    margin: 20px 0; /* Espaciado externo de 20 píxeles arriba y abajo */
+    border-radius: 5px; /* Bordes redondeados de 5 píxeles */
+}
+
+/* Estilo para el formulario */
+form {
+    background-color: #e0f7fa; /* Celeste claro para el fondo del formulario */
+    border: 1px solid #b2ebf2; /* Borde celeste más claro alrededor del formulario */
+    padding: 20px; /* Espaciado interno de 20 píxeles */
+    border-radius: 5px; /* Bordes redondeados de 5 píxeles */
+    margin: 20px 0; /* Espaciado externo de 20 píxeles arriba y abajo */
+}
+
+/* Estilo para los campos y botones del formulario */
+form label {
+    display: block; /* Hace que las etiquetas ocupen toda la línea */
+    margin-bottom: 5px; /* Espaciado inferior de 5 píxeles para las etiquetas */
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="number"] {
+    width: 100%; /* Hace que los campos de entrada ocupen el 100% del ancho del formulario */
+    padding: 8px; /* Espaciado interno de 8 píxeles */
+    margin-bottom: 10px; /* Espaciado inferior de 10 píxeles para los campos */
+    border: 1px solid #b2ebf2; /* Borde celeste claro para los campos */
+    border-radius: 3px; /* Bordes redondeados de 3 píxeles para los campos */
+}
+
+form input[type="submit"] {
+    background-color: #00bcd4; /* Celeste fuerte para el fondo del botón */
+    color: white; /* Color del texto en blanco */
+    border: none; /* Sin borde alrededor del botón */
+    padding: 10px 20px; /* Relleno interno del botón */
+    border-radius: 5px; /* Bordes redondeados de 5 píxeles para el botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+form input[type="submit"]:hover {
+    background-color: #0097a7; /* Color más oscuro cuando se pasa el ratón sobre el botón */
+}
+
+/* css asociado al carrito de compras */
+a {
+    color: #000; /* Color negro */
+    font-weight: bold; /* Negrita */
+    text-decoration: none; /* Elimina el subrayado */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Agrega un subrayado al pasar el cursor */
+  }
+
+/* css asociado a buscador de destino de viaje */
+  .search-container {
+    width: 180px; /* Ancho del contenedor, ajusta según sea necesario */
+    margin: 20px auto; /* Centra el contenedor horizontalmente */
+    text-align: center; /* Centra los elementos dentro del contenedor */
+    padding: 20px; /* Agrega un padding para dar espacio entre los elementos */
+    background-color: #1a3957; /* Fondo claro para el contenedor */
+    border: 3px solid #ccc; /* Borde delgado para el contenedor */
+    border-radius: 15px; /* Redondea los bordes del contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra para dar profundidad */
+  }
+  
+  .search-container input[type="text"],.search-container input[type="date"] {
+    width: 70%; /* Ancho de los campos de texto y fecha */
+    height: 40px; /* Alto de los campos de texto y fecha */
+    margin: 10px; /* Espacio entre los campos */
+    padding: 10px; /* Espacio entre el texto y el borde */
+    border: 1px solid #ccc; /* Borde delgado para los campos */
+    border-radius: 10px; /* Redondea los bordes de los campos */
+    font-size: 16px; /* Tamaño de la fuente */
+  }
+  
+  .search-container button[type="button"] {
+    width: 30%; /* Ancho del botón */
+    height: 40px; /* Alto del botón */
+    margin: 10px; /* Espacio entre el botón y los campos */
+    padding: 10px; /* Espacio entre el texto y el borde */
+    border: none; /* No borde para el botón */
+    border-radius: 10px; /* Redondea los bordes del botón */
+    background-color: #4CAF50; /* Fondo verde para el botón */
+    color: #fff; /* Texto blanco para el botón */
+    font-size: 16px; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambia el cursor a una mano para indicar que es clickable */
+  }
+  
+  .search-container button[type="button"]:hover {
+    background-color: #3e8e41; /* Fondo verde más oscuro al pasar el cursor */
+  }
