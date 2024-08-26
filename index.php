@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // Verifica si se ha enviado el form
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <h1>Agencia de viajes</h1> <!-- Titulo de la pagina -->
+    <h1>Agencia de viajes La mas Feliz</h1> <!-- Titulo de la pagina -->
     <meta charset="UTF-8"> <!-- Establece la codificación de caracteres a UTF-8 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la vista para dispositivos móviles -->
     <link rel="stylesheet" href="styles.css"> <!-- Enlaza la hoja de estilos CSS -->
